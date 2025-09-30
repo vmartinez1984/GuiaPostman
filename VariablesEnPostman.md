@@ -6,7 +6,7 @@ Las variables solo existen en la petición que se realice
 # Scripts
 Cuando se hace un request existen dos tiempos para ejecutar antes la request y despues de request.
 
-![pre request]("./imagenes/Pre-request.png")
+![pre request]("imagenes/Pre-request.png")
 
 Por ejemplo
 ```
