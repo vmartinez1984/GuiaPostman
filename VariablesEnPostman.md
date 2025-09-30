@@ -289,6 +289,10 @@ pm.test('Token Actualizado', function() {
 
 Para usarlo en la request lo colocamos en **Auth** en **Baerer Token** colocamos la variable con doble llave **{{FrameToken}}**
 
+<<<<<<< HEAD
 ![token](imagenes/UsoDelToken.png)
 
 # Evaluar dentro de una lista
+=======
+![token]('./imagenes/UsoDelToken.png')
+>>>>>>> 1cad9309e927dec46a1bff663970562861554f88
