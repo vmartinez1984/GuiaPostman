@@ -1,4 +1,4 @@
-# Varibles
+# Variables
 Al igual que cualquier lenguaje de programación o plataforma, se pueden declara variables. El lenguaje base de posman es Javascript.
 
 Las variables solo existen en la petición que se realice
@@ -6,7 +6,7 @@ Las variables solo existen en la petición que se realice
 # Scripts
 Cuando se hace un request existen dos tiempos para ejecutar antes la request y despues de request.
 
-![pre request]("./imagenes/Pre-request.png")
+![pre request](imagenes/Pre-request.png)
 
 Por ejemplo
 ```
@@ -183,7 +183,7 @@ Esto es recomenblae usarlo en el pre-script para insertar los valores en el body
 
 Esta sección se usa gneralmente para evaluar los resultados, por ejemplo lo mas simple son evaluar el tipo de estatus, esto se realiza en la pestañ de scritps en la sección de Post-re
 
-![image]('./imagenes/PostRequest00.png')
+![image](imagenes/PostRequest00.png)
 
 ```
 pm.test("Status code is 200", function () {
@@ -193,14 +193,14 @@ pm.test("Status code is 200", function () {
 Esta y otra funciones de uso frecuente estan precargadas en code
 **</>**
 
-![image]('/imagenes/PostRequest.png)
+![image](imagenes/PostRequest.png)
 
 Tambien puede usar el Postbot, es un pequeño asistente, coloque una redacción en ingles, con palabras claves de lo que quiere evaluar, asi como los campos que desea evaluar.
 
 
 El resultado de nuestra pruebas lo puede ver en la sección de **Response** en el apartado **Test Results**, como puede ver en la siguiente imagen.
 
-![image]('PostRequestResponse.png')
+![image](imagenes/PostRequestResponse.png)
 
 Para hacer evaluación sobre el **Response body** use el siguiente segmento de código
 
@@ -255,7 +255,7 @@ pm.test("accountId: " + accountId, function () { })
 
 Los test los veremos asi:
 
-![test]('./imagenes/TestResult01.png')
+![test](./imagenes/TestResult01.png)
 
 Uno de los más comunes de rescatar es el token del login
 
@@ -289,4 +289,6 @@ pm.test('Token Actualizado', function() {
 
 Para usarlo en la request lo colocamos en **Auth** en **Baerer Token** colocamos la variable con doble llave **{{FrameToken}}**
 
-![token]('./imagenes/UsoDelToken.png')
+![token](imagenes/UsoDelToken.png)
+
+# Evaluar dentro de una lista
